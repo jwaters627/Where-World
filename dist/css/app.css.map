@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,4DAAoD;AAEpD,iEAAyD;AAEzD,kEAA0D;AAE1D,uEAA+D;AAEvE,UAGC;EAFA,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,iCAAiC;ACVvC,EAAE;EACD,KAAK,EAAE,IAAI;;ACDZ,EAAE;EACD,KAAK,EAAE,IAAI;;ACDZ,EAAE;EACD,KAAK,EAAE,IAAI;;ACDZ,IAAK;EACJ,gBAAgB,EAAE,OAAO;EAEzB,cAAU;IACT,UAAU,EAAE,EAAE;IACd,aAAa,EAAE,EAAE;EAGlB,OAAG;IACF,WAAW,EJQC,2BAAoB;IIPhC,KAAK,EAAE,OAAO;EAGf,WAAO;IACN,WAAW,EJEL,cAAO",
-"sources": ["../../src/sass/_fonts.scss","../../src/sass/_landing.scss","../../src/sass/_header.scss","../../src/sass/_footer.scss","../../src/sass/_questions.scss"],
+"mappings": "AAAQ,4DAAoD;AAEpD,iEAAyD;AAEzD,kEAA0D;AAE1D,uEAA+D;AAEvE,UAGC;EAFA,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,iCAAiC;ACVvC,IAAK;EACJ,gBAAgB,EAAE,OAAO;EAEzB,cAAU;IACT,UAAU,EAAE,EAAE;IACd,aAAa,EAAE,EAAE;EAGlB,OAAG;IACF,WAAW,EDQC,2BAAoB;ICPhC,KAAK,EAAE,OAAO;EAGf,WAAO;IACN,WAAW,EDEL,cAAO",
+"sources": ["../../src/sass/_fonts.scss","../../src/sass/_questions.scss"],
 "names": [],
 "file": "app.css"
 }
