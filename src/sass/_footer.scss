@@ -5,3 +5,18 @@ footer{
 	position: fixed;
 	bottom: 0;
 }
+
+#footmenu{
+	margin-left: 25px;
+}
+
+#footmenu p{
+	color: white;
+	display: inline-block;
+	float: left;
+	padding: 5px 10px;
+	line-height: 70px;
+	vertical-align: middle;
+	font-family: $kadwa;
+	font-size: 14px;
+}
