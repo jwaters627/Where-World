@@ -95,14 +95,23 @@ footer {
   font-size: 14px; }
 
 body {
-  background-color: #1F456A; }
+  background-color: #33597E; }
   body .question {
     margin-top: 5%;
     margin-bottom: 5%; }
   body h2 {
     font-family: "IM Fell English SC", serif;
-    color: #BFC0C1; }
+    color: #BFC0C1;
+    text-align: center;
+    margin-bottom: 5%; }
   body button {
-    font-family: "Kadwa", serif; }
+    font-family: "Kadwa", serif;
+    margin-top: 5%; }
+  body img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
+  body .second-row {
+    margin-top: 5%; }
 
 /*# sourceMappingURL=app.css.map */
