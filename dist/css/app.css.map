@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,EAAE;EACD,KAAK,EAAE,IAAI",
-"sources": ["../../src/sass/app.scss"],
+"mappings": "AAAA,EAAE;EACD,KAAK,EAAE,IAAI;;ACDZ,EAAE;EACD,KAAK,EAAE,IAAI;;ACDZ,EAAE;EACD,KAAK,EAAE,IAAI",
+"sources": ["../../src/sass/_landing.scss","../../src/sass/_header.scss","../../src/sass/_footer.scss"],
 "names": [],
 "file": "app.css"
 }
