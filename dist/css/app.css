@@ -164,12 +164,21 @@ body {
     margin-bottom: 5%; }
   body button {
     font-family: "Kadwa", serif;
-    margin-top: 5%; }
+    margin-top: 5%;
+    text-transform: uppercase; }
   body img {
     display: block;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    height: 200px;
+    width: 250px;
+    border-radius: 5%;
+    border: 3px solid #fff; }
   body .second-row {
     margin-top: 5%; }
+  body .submit {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    font-family: "Kadwa", serif; }
 
 /*# sourceMappingURL=app.css.map */
