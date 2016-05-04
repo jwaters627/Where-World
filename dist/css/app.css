@@ -89,8 +89,48 @@ h3 {
   z-index: 9999;
   display: none; }
 
-#emailcapture.open {
-  display: block; }
+#xout {
+  text-align: center;
+  float: right;
+  width: 28px;
+  margin-top: -5px;
+  margin-right: -5px;
+  background-color: #3e3e3e;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 19px;
+  color: white; }
+
+#xout:hover {
+  cursor: hand; }
+
+form {
+  margin-top: 20px; }
+
+input[type=text] {
+  margin: 22px 30%;
+  padding: 7px;
+  text-align: center;
+  width: 40%;
+  background-color: #1F456A;
+  color: white;
+  font-size: 22px;
+  font-family: "Kadwa", serif; }
+
+#submitbutton {
+  width: 30%;
+  border: 2px solid #3e3e3e;
+  text-align: center;
+  margin-left: 35%;
+  padding: 5px;
+  margin-top: 15px;
+  font-family: "Kadwa", serif;
+  font-size: 18px; }
+
+#submitbutton:hover {
+  background-color: #3e3e3e;
+  color: white;
+  cursor: hand; }
 
 footer {
   height: 70px;
