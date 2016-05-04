@@ -12,7 +12,12 @@ $(function(){
   $('#emailcapture').fadeIn(2000);
 });
 
-$('#emailcapture').on('click', function() {
+$('#xout').on('click', function() {
+	$('#emailcapture').fadeOut(2000);
+
+});
+
+$('#submitbutton').on('click', function() {
 	$('#emailcapture').fadeOut(2000);
 
 });
