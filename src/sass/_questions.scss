@@ -16,16 +16,27 @@ body {
 	button {
 		font-family: $kadwa;
 		margin-top: 5%;
+		text-transform: uppercase;
 	}
 
 	img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
+		height: 200px;
+		width: 250px;
+		border-radius: 5%;
+		border: 3px solid #fff;
 	}
 
 	.second-row {
 		margin-top: 5%;
+	}
+
+	.submit {
+		margin-top: 8%;
+		margin-bottom: 8%;
+		font-family: $kadwa;
 	}
 }
 
