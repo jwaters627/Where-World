@@ -28,8 +28,7 @@ var trips = [{
         climate: "cold",
         companions: "pair",
         lodging: "hotel"
-    },
-    {
+    }, {
         name: "Zion",
         distance: "domestic",
         remoteness: "rural",
@@ -257,48 +256,47 @@ var trips = [{
         climate: "warm",
         companions: "group",
         lodging: "rental"
+    }, {
+        name: "Bora Bora",
+        distance: "international",
+        remoteness: "rural",
+        landscape: "beach",
+        price: "high-cost",
+        rigor: "leisure",
+        tastes: "beer",
+        interests: "nature",
+        climate: "hot",
+        companions: "pair",
+        lodging: "hotel"
     },
+
     {
-   name: "Bora Bora",
-   distance: "international",
-   remoteness: "rural",
-   landscape: "beach",
-   price: "high-cost",
-   rigor: "leisure",
-   tastes: "beer",
-   interests: "nature",
-   climate: "hot",
-   companions: "pair",
-   lodging: "hotel"
-},
+        name: "Rio de Janeiro",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "beach",
+        price: "high-cost",
+        rigor: "active",
+        tastes: "wine",
+        interests: "culture",
+        climate: "hot",
+        companions: "group",
+        lodging: "hostel"
+    },
 
-{
-   name: "Rio de Janeiro",
-   distance: "international",
-   remoteness: "urban",
-   landscape: "beach",
-   price: "high-cost",
-   rigor: "active",
-   tastes: "wine",
-   interests: "culture",
-   climate: "hot",
-   companions: "group",
-   lodging: "hostel"
-},
-
-{
-   name: "Yellowstone",
-   distance: "domestic",
-   remoteness: "rural",
-   landscape: "mountains",
-   price: "low-cost",
-   rigor: "active",
-   tastes: "beer",
-   interests: "nature",
-   climate: "warm",
-   companions: "group",
-   lodging: "camping"
-}
+    {
+        name: "Yellowstone",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        price: "low-cost",
+        rigor: "active",
+        tastes: "beer",
+        interests: "nature",
+        climate: "warm",
+        companions: "group",
+        lodging: "camping"
+    }
 
 
 
@@ -372,15 +370,26 @@ var selections = function() {
 selections();
 
 // DIMMING QUESTIONS THAT ARE NOT ACTIVE //
+document.addEventListener("scroll", function() {
+    var y = $('body').scrollTop();
+    console.log(y);
+    if (y < 100) {
+        $('#question1').removeClass('open');
+    }
+    else if(y > 100){
+    	$('#question1').addClass('open');
+    }
+});
 
-var dim = function(){
-	var y = $('body').scrollTop();
-	if(y < 100){
-		$('#question1').addClass('open');
-	}
-};
 
-dim();
+
+
+
+
+
+
+
+
 
 
 
