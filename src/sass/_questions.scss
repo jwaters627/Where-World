@@ -1,5 +1,6 @@
 body {
     background-color: #33597E;
+    
     .question {
         margin-top: 5%;
         margin-bottom: 5%;
@@ -10,14 +11,17 @@ body {
             margin-bottom: 5%;
         }
     }
+    
     button {
         font-family: $kadwa;
         margin-top: 5%;
         text-transform: uppercase;
     }
-    button:active {
+
+    .btn:focus {
         background-color: #5cb85c;
     }
+
     img {
         display: block;
         margin-left: auto;
@@ -27,9 +31,11 @@ body {
         border-radius: 5%;
         border: 3px solid #fff;
     }
+
     #question1 {
         opacity: 1;
     }
+
     #question2,
     #question3,
     #question4,
@@ -41,10 +47,20 @@ body {
     #question10 {
         opacity: 0.4;
     }
+
     #question1.open {
         opacity: 0.4;
     }
-    #question2.open {
+
+    #question2.open,
+    #question3.open,
+    #question4.open,
+    #question5.open,
+    #question6.open,
+    #question7.open,
+    #question8.open,
+    #question9.open,
+    #question10.open {
         opacity: 1;
     }
     .second-row {
