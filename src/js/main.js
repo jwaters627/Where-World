@@ -370,3 +370,31 @@ var selections = function() {
 
 }
 selections();
+
+// DIMMING QUESTIONS THAT ARE NOT ACTIVE //
+
+var dim = function(){
+	var y = $('body').scrollTop();
+	if(y < 100){
+		$('#question1').addClass('open');
+	}
+};
+
+dim();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
