@@ -166,7 +166,7 @@ body {
     font-family: "Kadwa", serif;
     margin-top: 5%;
     text-transform: uppercase; }
-  body button:active {
+  body .btn:focus {
     background-color: #5cb85c; }
   body img {
     display: block;
@@ -190,7 +190,15 @@ body {
     opacity: 0.4; }
   body #question1.open {
     opacity: 0.4; }
-  body #question2.open {
+  body #question2.open,
+  body #question3.open,
+  body #question4.open,
+  body #question5.open,
+  body #question6.open,
+  body #question7.open,
+  body #question8.open,
+  body #question9.open,
+  body #question10.open {
     opacity: 1; }
   body .second-row {
     margin-top: 5%; }
