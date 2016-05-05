@@ -157,11 +157,11 @@ body {
   body .question {
     margin-top: 5%;
     margin-bottom: 5%; }
-  body h2 {
-    font-family: "IM Fell English SC", serif;
-    color: #BFC0C1;
-    text-align: center;
-    margin-bottom: 5%; }
+    body .question h2 {
+      font-family: "IM Fell English SC", serif;
+      color: #BFC0C1;
+      text-align: center;
+      margin-bottom: 5%; }
   body button {
     font-family: "Kadwa", serif;
     margin-top: 5%;
@@ -174,6 +174,19 @@ body {
     width: 250px;
     border-radius: 5%;
     border: 3px solid #fff; }
+  body #question1,
+  body #question2,
+  body #question3,
+  body #question4,
+  body #question5,
+  body #question6,
+  body #question7,
+  body #question8,
+  body #question9,
+  body #question10 {
+    opacity: 0.4; }
+  body .open {
+    opacity: 1; }
   body .second-row {
     margin-top: 5%; }
   body .submit {
