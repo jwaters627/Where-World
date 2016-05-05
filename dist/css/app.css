@@ -166,6 +166,8 @@ body {
     font-family: "Kadwa", serif;
     margin-top: 5%;
     text-transform: uppercase; }
+  body button:active {
+    background-color: #5cb85c; }
   body img {
     display: block;
     margin-left: auto;
@@ -184,7 +186,7 @@ body {
   body #question8,
   body #question9,
   body #question10 {
-    opacity: 0.4; }
+    opacity: 1; }
   body .open {
     opacity: 1; }
   body .second-row {
