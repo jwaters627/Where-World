@@ -388,10 +388,15 @@ document.addEventListener("scroll", function() {
     	$('#question2').addClass('open');
     	$('#question3').removeClass('open');
     }
-    else if(y > 700){
-    	$('#question3').addClass('open');
-    	$('#question2').removeClass('open');
-    }
+    else if(y > 700 && y < 1452){
+       $('#question3').addClass('open');
+       $('#question2').removeClass('open');
+       $('#question4').removeClass('open');
+   }
+   else if(y > 1452){
+       $('#question4').addClass('open');
+       $('#question3').removeClass('open');
+   }
     
 
 });
