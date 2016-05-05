@@ -42,10 +42,42 @@ var trips = [{
     lodging: "camping",
 }, ];
 
-newobj = {};
+
+
+var submission = function(e){
+
+$('#submitted').click(function(){
+        for (i = 0; i < trips.length; i++) {
+            if (trips[i].distance !== e.distance) {
+                continue;
+            } else if (trips[i].remoteness !== e.remoteness) {
+                continue;
+            } else if (trips[i].landscape !== e.landscape) {
+                continue;
+            } else if (trips[i].price !== e.price) {
+                continue;
+            } else if (trips[i].rigor !== e.rigor) {
+                continue;
+            } else if (trips[i].tastes !== e.tastes) {
+                continue;
+            } else if (trips[i].interests !== e.interests) {
+                continue;
+            } else if (trips[i].climate !== e.climate) {
+                continue;
+            } else if (trips[i].companions !== e.companions) {
+                continue;
+            } else {
+                console.log(trips[i].name);
+            };
+        };
+
+    });
+}
+
+
 
 var selections = function() {
-    
+    newobj = {};
     document.addEventListener("click", function(e) {
         if (e.target.id == "domestic" || e.target.id == "international") {
             newobj.distance = e.target.id
@@ -79,52 +111,10 @@ var selections = function() {
             newobj.lodging = e.target.id
         }
     });
-
+	submission(newobj);
 
 }
 selections();
-
-// Submission
-
-var submission = function() {
-    
-    document.addEventListener("click", function(e) {
-        if(e.target.id === "submitted"){
-        alert('here');
-        console.log(newobj);
-
-
-        // for (i = 0; i < trips.length; i++) {
-        //     if (trips[i].distance !== newobj.distance) {
-        //         continue;
-        //     } else if (trips[i].remoteness !== newobj.remoteness) {
-        //         continue;
-        //     } else if (trips[i].landscape !== newobj.landscape) {
-        //         continue;
-        //     } else if (trips[i].price !== newobj.price) {
-        //         continue;
-        //     } else if (trips[i].rigor !== newobj.rigor) {
-        //         continue;
-        //     } else if (trips[i].tastes !== newobj.tastes) {
-        //         continue;
-        //     } else if (trips[i].interests !== newobj.interests) {
-        //         continue;
-        //     } else if (trips[i].climate !== newobj.climate) {
-        //         continue;
-        //     } else if (trips[i].companions !== newobj.companions) {
-        //         continue;
-        //     } else {
-        //         console.log(trips[i].name);
-        //     }
-        // };
-
-    });
-    }
-}
-
-submission();
-
-
 
 
 
