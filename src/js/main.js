@@ -369,21 +369,47 @@ var selections = function() {
 }
 selections();
 
+
+
+
+
+
+
 // DIMMING QUESTIONS THAT ARE NOT ACTIVE //
 document.addEventListener("scroll", function() {
     var y = $('body').scrollTop();
     console.log(y);
-    if (y < 100) {
+    if (y < 300) {
         $('#question1').removeClass('open');
+        $('#question2').removeClass('open');
     }
-    else if(y > 100){
+    else if(y > 300 && y < 700){
     	$('#question1').addClass('open');
+    	$('#question2').addClass('open');
+    	$('#question3').removeClass('open');
     }
+    else if(y > 700){
+    	$('#question3').addClass('open');
+    	$('#question2').removeClass('open');
+    }
+    
+
 });
 
 
+document.addEventListener("click", function(e) {
+	if(e.target.id == "domestic" || e.target.id == "international"){
+		 $('body').animate({
+            scrollTop: 400
+        }, 1000)
+	}
+	else if(e.target.id == "urban" || e.target.id == "rural"){
+		 $('body').animate({
+            scrollTop: 900
+        }, 1000)
+	}
 
-
+});
 
 
 
