@@ -388,7 +388,7 @@ document.addEventListener("scroll", function() {
     	$('#question2').addClass('open');
     	$('#question3').removeClass('open');
     }
-    else if(y > 700){
+    else if(y > 700 ){
     	$('#question3').addClass('open');
     	$('#question2').removeClass('open');
     }
