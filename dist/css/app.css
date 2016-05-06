@@ -178,6 +178,11 @@ body {
     border: 3px solid #fff; }
   body #question1 {
     opacity: 1; }
+  body #question32 {
+    display: none;
+    opacity: 0.2; }
+  body #question32.show {
+    display: block; }
   body #question2,
   body #question3,
   body #question4,
@@ -192,6 +197,7 @@ body {
     opacity: 0.4; }
   body #question2.open,
   body #question3.open,
+  body #question32.open,
   body #question4.open,
   body #question5.open,
   body #question6.open,
@@ -200,6 +206,8 @@ body {
   body #question9.open,
   body #question10.open {
     opacity: 1; }
+  body #question3.hide {
+    display: none; }
   body .second-row {
     margin-top: 5%; }
   body .submit {

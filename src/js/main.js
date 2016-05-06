@@ -16,293 +16,6 @@ $('#submitbutton').on('click', function() {
 
 // testing //
 
-var trips = [{
-        name: "New York City",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "foodie",
-        interests: "museums",
-        climate: "cold",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "Zion",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "desert",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "camping"
-    }, {
-        name: "Costa Rica - beach",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "rental"
-    }, {
-        name: "Costa Rica - rainforest",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "San Francisco - medium cost",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "wine",
-        interests: "culture",
-        climate: "mild",
-        companions: "group",
-        lodging: "hotel"
-    }, {
-        name: "San Francisco - high cost",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "",
-        price: "high-cost",
-        rigor: "leisure",
-        tastes: "wine",
-        interests: "culture",
-        climate: "mild",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "San Francisco - beer",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "culture",
-        climate: "mild",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "West Coast",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
-        companions: "group",
-        lodging: "hotel"
-    }, {
-        name: "Panama",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "nature",
-        climate: "hot",
-        companions: "solo",
-        lodging: "hostel"
-    }, {
-        name: "Panama",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "Panama",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "culture",
-        climate: "mild",
-        companions: "group",
-        lodging: "hotel"
-    }, {
-        name: "Yosemite",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "low-cost",
-        rigor: "active",
-        tastes: "beer",
-        interests: "nature",
-        climate: "mild",
-        companions: "pair",
-        lodging: "camping"
-    }, {
-        name: "Yosemite",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "low-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
-        companions: "pair",
-        lodging: "camping"
-    }, {
-        name: "Yosemite",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "low-cost",
-        rigor: "active",
-        tastes: "beer",
-        interests: "nature",
-        climate: "mild",
-        companions: "solo",
-        lodging: "camping"
-    }, {
-        name: "Yosemite",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "low-cost",
-        rigor: "active",
-        tastes: "beer",
-        interests: "nature",
-        climate: "mild",
-        companions: "group",
-        lodging: "camping"
-    }, {
-        name: "Las Vegas",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "desert",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "foodie",
-        interests: "museums",
-        climate: "hot",
-        companions: "group",
-        lodging: "hotel"
-    }, {
-        name: "Orlando",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
-        companions: "group",
-        lodging: "hotel"
-    }, {
-        name: "Washington, DC",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "wine",
-        interests: "museums",
-        climate: "warm",
-        companions: "group",
-        lodging: "rental"
-    }, {
-        name: "Sedona",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "desert",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "beer",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "camping"
-    }, {
-        name: "Myrtle Beach",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "medium-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "nature",
-        climate: "warm",
-        companions: "group",
-        lodging: "rental"
-    }, {
-        name: "Bora Bora",
-        distance: "international",
-        remoteness: "rural",
-        landscape: "beach",
-        price: "high-cost",
-        rigor: "leisure",
-        tastes: "beer",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "hotel"
-    },
-
-    {
-        name: "Rio de Janeiro",
-        distance: "international",
-        remoteness: "urban",
-        landscape: "beach",
-        price: "high-cost",
-        rigor: "active",
-        tastes: "wine",
-        interests: "culture",
-        climate: "hot",
-        companions: "group",
-        lodging: "hostel"
-    },
-
-    {
-        name: "Yellowstone",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "low-cost",
-        rigor: "active",
-        tastes: "beer",
-        interests: "nature",
-        climate: "warm",
-        companions: "group",
-        lodging: "camping"
-    }
-
-
-
-
-];
-
 
 
 var submission = function(e) {
@@ -387,16 +100,19 @@ document.addEventListener("scroll", function() {
     	$('#question1').addClass('open');
     	$('#question2').addClass('open');
     	$('#question3').removeClass('open');
+    	$('#question32').removeClass('open');
     }
 
     else if(y > 700 && y < 1352){
        $('#question3').addClass('open');
+       $('#question32').addClass('open');
        $('#question2').removeClass('open');
        $('#question4').removeClass('open');
    }
    else if(y > 1452 && y < 2050){
        $('#question4').addClass('open');
        $('#question3').removeClass('open');
+       $('#question32').removeClass('open');
        $('#question5').removeClass('open');
    }   
    else if(y > 2150 && y < 2380){
@@ -439,7 +155,16 @@ document.addEventListener("click", function(e) {
             scrollTop: 400
         }, 1000)
 	}
-	else if(e.target.id == "urban" || e.target.id == "rural"){
+	else if(e.target.id == "urban"){
+		$('#question3').addClass('hide');
+		$('#question32').addClass('show');
+		 $('body').animate({
+            scrollTop: 900
+        }, 1000)
+	}
+	else if(e.target.id == "rural"){
+		$('#question3').removeClass('hide');
+		$('#question32').removeClass('show');
 		 $('body').animate({
             scrollTop: 900
         }, 1000)
