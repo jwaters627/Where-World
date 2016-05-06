@@ -14,11 +14,9 @@ $('#submitbutton').on('click', function() {
 
 });
 
-// GIVING TRIP AT THE END //
-
-
-
+// COMPARING CHOSEN OBJECT TO LIST OF TRIPS AND GIVING TRIP AT THE END //
 var submission = function(e) {
+	
     $('#submitted').click(function() {
         for (i = 0; i < trips.length; i++) {
             if (trips[i].distance !== e.distance) {
@@ -40,7 +38,9 @@ var submission = function(e) {
             } else if (trips[i].companions !== e.companions) {
                 continue;
             } else {
+            	
                 alert("go to fucking " + trips[i].name + " already!");
+
             };
         };
 
