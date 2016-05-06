@@ -60,6 +60,8 @@ var selections = function() {
             newobj.remoteness = e.target.id
         } else if (e.target.id == "desert" || e.target.id == "beach" || e.target.id == "mountains" || e.target.id == "lake") {
             newobj.landscape = e.target.id
+        } else if (e.target.id == "music" || e.target.id == "museums" || e.target.id == "historicalsites" || e.target.id == "restaurants") {
+            newobj.landscape = e.target.id
         } else if (e.target.id == "low-cost" || e.target.id == "medium-cost" || e.target.id == "high-cost") {
             newobj.price = e.target.id
         } else if (e.target.id == "active" || e.target.id == "leisure") {
@@ -95,142 +97,103 @@ document.addEventListener("scroll", function() {
     if (y < 300) {
         $('#question1').removeClass('open');
         $('#question2').removeClass('open');
-    }
-    else if(y > 300 && y < 600){
-    	$('#question1').addClass('open');
-    	$('#question2').addClass('open');
-    	$('#question3').removeClass('open');
-    	$('#question32').removeClass('open');
-    }
+    } else if (y > 300 && y < 600) {
+        $('#question1').addClass('open');
+        $('#question2').addClass('open');
+        $('#question3').removeClass('open');
+        $('#question32').removeClass('open');
+    } else if (y > 700 && y < 1352) {
+        $('#question3').addClass('open');
+        $('#question32').addClass('open');
+        $('#question2').removeClass('open');
+        $('#question4').removeClass('open');
+    } else if (y > 1452 && y < 2050) {
+        $('#question4').addClass('open');
+        $('#question3').removeClass('open');
+        $('#question32').removeClass('open');
+        $('#question5').removeClass('open');
+    } else if (y > 2150 && y < 2380) {
+        $('#question5').addClass('open');
+        $('#question4').removeClass('open');
+        $('#question6').removeClass('open');
+    } else if (y > 2580 && y < 3043) {
+        $('#question6').addClass('open');
+        $('#question5').removeClass('open');
+        $('#question7').removeClass('open');
+    } else if (y > 3243 && y < 3620) {
+        $('#question7').addClass('open');
+        $('#question6').removeClass('open');
+        $('#question8').removeClass('open');
+    } else if (y > 3738 && y < 4310) {
+        $('#question8').addClass('open');
+        $('#question7').removeClass('open');
+        $('#question9').removeClass('open');
+    } else if (y > 4430 && y < 5100) {
+        $('#question9').addClass('open');
+        $('#question8').removeClass('open');
+        $('#question10').removeClass('open');
+    } else if (y > 5210) {
+        $('#question10').addClass('open');
+        $('#question9').removeClass('open');
 
-    else if(y > 700 && y < 1352){
-       $('#question3').addClass('open');
-       $('#question32').addClass('open');
-       $('#question2').removeClass('open');
-       $('#question4').removeClass('open');
-   }
-   else if(y > 1452 && y < 2050){
-       $('#question4').addClass('open');
-       $('#question3').removeClass('open');
-       $('#question32').removeClass('open');
-       $('#question5').removeClass('open');
-   }   
-   else if(y > 2150 && y < 2380){
-       $('#question5').addClass('open');
-       $('#question4').removeClass('open');
-       $('#question6').removeClass('open');
-   }   
-   else if(y > 2580 && y < 3043){
-       $('#question6').addClass('open');
-       $('#question5').removeClass('open');
-       $('#question7').removeClass('open');
-   }  
-   else if(y > 3243 && y < 3620){
-       $('#question7').addClass('open');
-       $('#question6').removeClass('open');
-       $('#question8').removeClass('open');
-   }  
-   else if(y > 3738 && y < 4310){
-       $('#question8').addClass('open');
-       $('#question7').removeClass('open');
-       $('#question9').removeClass('open');
-   }  
-   else if(y > 4430 && y < 5100){
-       $('#question9').addClass('open');
-       $('#question8').removeClass('open');
-       $('#question10').removeClass('open');
-   }  
-   else if(y > 5210){
-       $('#question10').addClass('open');
-       $('#question9').removeClass('open');
-       
-   }  
+    }
 
 });
 
 
 document.addEventListener("click", function(e) {
-	if(e.target.id == "domestic" || e.target.id == "international"){
-		 $('body').animate({
+    if (e.target.id == "domestic" || e.target.id == "international") {
+        $('body').animate({
             scrollTop: 400
         }, 1000)
-	}
-	else if(e.target.id == "urban"){
-		$('#question3').addClass('hide');
-		$('#question32').addClass('show');
-		 $('body').animate({
+    } else if (e.target.id == "urban") {
+        $('#question3').addClass('hide');
+        $('#question32').addClass('show');
+        $('body').animate({
             scrollTop: 900
         }, 1000)
-	}
-	else if(e.target.id == "rural"){
-		$('#question3').removeClass('hide');
-		$('#question32').removeClass('show');
-		 $('body').animate({
+    } else if (e.target.id == "rural") {
+        $('#question3').removeClass('hide');
+        $('#question32').removeClass('show');
+        $('body').animate({
             scrollTop: 900
         }, 1000)
-	}
-	else if(e.target.id == "beach" || e.target.id == "lake" || e.target.id == "mountains" || e.target.id == "desert"){
-		 $('body').animate({
+    } else if (e.target.id == "beach" || e.target.id == "lake" || e.target.id == "mountains" || e.target.id == "desert") {
+        $('body').animate({
             scrollTop: 1580
         }, 1000)
-	}
-	else if(e.target.id == "low-cost" || e.target.id == "medium-cost" || e.target.id == "high-cost"){
-		 $('body').animate({
+    } else if (e.target.id == "music" || e.target.id == "restaurants" || e.target.id == "museums" || e.target.id == "historicalsites") {
+        $('body').animate({
+            scrollTop: 1580
+        }, 1000)
+    } else if (e.target.id == "low-cost" || e.target.id == "medium-cost" || e.target.id == "high-cost") {
+        $('body').animate({
             scrollTop: 2253
         }, 1000)
-	}
-	else if(e.target.id == "active" || e.target.id == "leisure"){
-		 $('body').animate({
+    } else if (e.target.id == "active" || e.target.id == "leisure") {
+        $('body').animate({
             scrollTop: 2740
         }, 1000)
-	}
-	else if(e.target.id == "foodie" || e.target.id == "beer" || e.target.id == "wine"){
-		 $('body').animate({
+    } else if (e.target.id == "foodie" || e.target.id == "beer" || e.target.id == "wine") {
+        $('body').animate({
             scrollTop: 3384
         }, 1000)
-	}
-	else if(e.target.id == "culture" || e.target.id == "nature"){
-		 $('body').animate({
+    } else if (e.target.id == "culture" || e.target.id == "nature") {
+        $('body').animate({
             scrollTop: 3883
         }, 1000)
-	}
-	else if(e.target.id == "hot" || e.target.id == "cold" || e.target.id == "mild"){
-		 $('body').animate({
+    } else if (e.target.id == "hot" || e.target.id == "cold" || e.target.id == "mild") {
+        $('body').animate({
             scrollTop: 4594
         }, 1000)
-	}
-	else if(e.target.id == "pair" || e.target.id == "group" || e.target.id == "solo"){
-		 $('body').animate({
+    } else if (e.target.id == "pair" || e.target.id == "group" || e.target.id == "solo") {
+        $('body').animate({
             scrollTop: 5300
         }, 1000)
-	}
-	else if(e.target.id == "camping" || e.target.id == "hostel" || e.target.id == "hotel" || e.target.id == "rental"){
-		 $('body').animate({
+    } else if (e.target.id == "camping" || e.target.id == "hostel" || e.target.id == "hotel" || e.target.id == "rental") {
+        $('body').animate({
             scrollTop: 5404
         }, 1000)
-	}
+    }
 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
