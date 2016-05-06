@@ -12,5 +12,8 @@ app.controller('MainController', ['$scope', function($scope) {
     	duration: 'You could spend as much time as you want in SF, but you should plan to spend at least 3 days to take in the main attractions.'
     }
 ]
-  
+
+
+
   }]);
+
