@@ -215,4 +215,11 @@ body {
     margin-bottom: 8%;
     font-family: "Kadwa", serif; }
 
+.main h1 {
+  background-color: #3e3e3e;
+  color: white;
+  width: 20%; }
+.main h2 {
+  color: black; }
+
 /*# sourceMappingURL=app.css.map */
