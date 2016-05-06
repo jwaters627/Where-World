@@ -1,1 +1,1 @@
-var app = angular.module("WhereWorldApp", ['ngRoute']);
+var app = angular.module("WhereWorldApp", []);

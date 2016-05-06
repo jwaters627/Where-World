@@ -234,8 +234,8 @@ var trips = [{
         price: "medium-cost",
         rigor: "leisure",
         tastes: "wine",
-        interests: "museums",
-        climate: "warm",
+        interests: "culture",
+        climate: "mild",
         companions: "group",
         lodging: "rental"
     }, {
@@ -259,7 +259,7 @@ var trips = [{
         rigor: "leisure",
         tastes: "beer",
         interests: "nature",
-        climate: "warm",
+        climate: "mild",
         companions: "group",
         lodging: "rental"
     }, {

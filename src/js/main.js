@@ -14,12 +14,11 @@ $('#submitbutton').on('click', function() {
 
 });
 
-// testing //
+// GIVING TRIP AT THE END //
 
 
 
 var submission = function(e) {
-
     $('#submitted').click(function() {
         for (i = 0; i < trips.length; i++) {
             if (trips[i].distance !== e.distance) {
@@ -46,9 +45,11 @@ var submission = function(e) {
         };
 
     });
+
 }
 
 
+// SETTING NEW OBJECT UP //
 
 var selections = function() {
     newobj = {};
@@ -139,6 +140,8 @@ document.addEventListener("scroll", function() {
     }
 
 });
+
+// AUTOSCROLL AFTER CLICK EACH QUESTION //
 
 
 document.addEventListener("click", function(e) {
