@@ -441,7 +441,8 @@ var trips = [{
         tastes: "beer",
         companions: "group",
         lodging: "rental"
-    }, {
+    }, 
+    {
         number: 44,
         name: "Bora Bora",
         distance: "international",
@@ -451,7 +452,8 @@ var trips = [{
         tastes: "beer",
         companions: "pair",
         lodging: "hotel"
-    }, {
+    }, 
+    {
         number: 45,
         name: "Rio de Janeiro",
         distance: "international",
@@ -461,7 +463,8 @@ var trips = [{
         tastes: "wine",
         companions: "group",
         lodging: "hostel"
-    }, {
+    }, 
+    {
         number: 46,
         name: "Yellowstone",
         distance: "domestic",
@@ -570,7 +573,7 @@ var trips = [{
         tastes: "foodie",
         companions: "pair",
         lodging: "hotel"
-    }
+    },
 
 
 
