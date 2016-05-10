@@ -215,24 +215,26 @@ body {
     margin-bottom: 8%;
     font-family: "Kadwa", serif; }
 
-.main h1 {
-  margin: 20px auto;
-  background-color: #3e3e3e;
+.main {
   text-align: center;
-  color: white;
-  width: 20%; }
-.main h2 {
-  text-align: center;
-  color: black; }
-
-.places {
-  padding-bottom: 10px;
-  border-bottom: 2px solid black; }
-
-.places img {
-  margin: 0 auto;
-  width: 40%;
-  height: 300px;
-  border: none; }
+  color: #fff;
+  margin-bottom: 2%; }
+  .main h1 {
+    background-color: #333;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-transform: uppercase;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 0; }
+  .main h2 {
+    font-size: 1.5em;
+    font-weight: 400; }
+  .main img {
+    margin-bottom: 2%;
+    width: 80%;
+    height: 75%;
+    border: none;
+    border-radius: 0; }
 
 /*# sourceMappingURL=app.css.map */

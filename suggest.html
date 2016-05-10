@@ -2,19 +2,38 @@
 
 <head>
     <title>Suggested Trip</title>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dist/css/app.css">
     <script src="dist/js/vendor/angular.min.js"></script>
 </head>
 
 <body ng-app="WhereWorldApp">
-    <div class="main" ng-controller="MainController">
-        <div class="places" ng-repeat="show in shown">
-            <h1> {{show.name}} </h1>
-            <h2> {{show.description}} </h2>
-            <h2> {{show.duration}} </h2>
-            <img ng-src= "{{show.image}}">
+    <div class="row main" ng-controller="MainController">
+        <div ng-repeat="show in shown">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h1> {{show.name}} </h1>
+                </div>
+
+                <div class="col-sm-8 col-sm-offset-2">
+                    <img ng-src= "{{show.image}}">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2> {{show.description}} </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2> {{show.duration}} </h2>
+                </div>
+            </div>
         </div>
     </div>
+
     <script type="text/javascript" src="dist/js/vendor/jquery.js"></script>
     <script type="text/javascript" src="src/js/main.js"></script>
     <!-- Modules -->
