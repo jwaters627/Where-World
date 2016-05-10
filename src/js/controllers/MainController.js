@@ -36,7 +36,13 @@ app.controller('MainController', ['$scope', function($scope) {
       duration: 'You should give yourself at least a week in Costa Rica to enjoy the rain forest and get to Arenal.',
       image: 'dist/img/monteverde.jpg'
     },
-     
+     {
+      number: 6,
+      name: 'San Francisco',
+      description: 'San Francisco has many different restaurants and sites that vary greatly depending on the neighborhood you are in.  Make sure to get some mexican food in the mission, explore haight ashbury and get some ice cream at ben and jerrys, have a stein and great german food at Leopolds on Polk St., sample food down by the water at the ferry building.  It is definitely worth renting some bikes to cross the golden gate and get the view from the marin headlands',
+      duration: 'You should give yourself at least 3 days to take in San Francisco.',
+      image: 'dist/img/sf.jpg'
+    },
 ]
 
 used = localStorage.userinfo;
