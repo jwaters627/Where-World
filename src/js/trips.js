@@ -4,11 +4,8 @@ var trips = [{
         distance: "domestic",
         remoteness: "urban",
         landscape: "restaurants",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "foodie",
-        interests: "culture",
-        climate: "cold",
         companions: "pair",
         lodging: "hotel"
     }, {
@@ -17,11 +14,8 @@ var trips = [{
         distance: "domestic",
         remoteness: "rural",
         landscape: "desert",
-        price: "low-cost",
         rigor: "active",
         tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
         companions: "pair",
         lodging: "camping"
     },{
@@ -30,11 +24,8 @@ var trips = [{
         distance: "domestic",
         remoteness: "rural",
         landscape: "mountains",
-        price: "low-cost",
         rigor: "active",
         tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
         companions: "pair",
         lodging: "camping"
     }, {
@@ -43,11 +34,8 @@ var trips = [{
         distance: "international",
         remoteness: "rural",
         landscape: "beach",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
         companions: "pair",
         lodging: "rental"
     }, 
@@ -57,23 +45,18 @@ var trips = [{
         distance: "international",
         remoteness: "rural",
         landscape: "mountains",
-        price: "medium-cost",
         rigor: "active",
         tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
         companions: "pair",
         lodging: "hotel"
     }, {
-        name: "San Francisco - medium cost",
+        number: 6,
+        name: "San Francisco - group",
         distance: "domestic",
         remoteness: "urban",
         landscape: "restaurants",
-        price: "medium-cost",
         rigor: "leisure",
-        tastes: "wine",
-        interests: "culture",
-        climate: "mild",
+        tastes: "foodie",
         companions: "group",
         lodging: "hotel"
     }, {
