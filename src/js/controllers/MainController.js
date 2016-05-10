@@ -211,6 +211,97 @@ app.controller('MainController', ['$scope', function($scope) {
       duration: 'You should plan at least 3 days in Sedona',
       image: 'dist/img/sedona.jpg'
     },
+    {
+      number: 30,
+      name: 'South Africa - Safari',
+      description: 'South Africa has many amazing sites, but seeing that African wildlife is at the top of the list.  Kruger National Park is an expansive area that is worth the long journey to see.  Get yourself settled and then get out to see the wildlife.  Hiring a guide is worth the cost as they have a pulse on where the animals are and it gives you the best chance to see the big five.  You can drive the park on your own and hope to encounter all the animals you want to see.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/safari.jpg'
+    },
+    {
+      number: 31,
+      name: 'South Africa - Safari',
+      description: 'South Africa has many amazing sites, but seeing that African wildlife is at the top of the list.  Kruger National Park is an expansive area that is worth the long journey to see.  Get yourself settled and then get out to see the wildlife.  Hiring a guide is worth the cost as they have a pulse on where the animals are and it gives you the best chance to see the big five.  You can drive the park on your own and hope to encounter all the animals you want to see.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/safari.jpg'
+    },
+    {
+      number: 32,
+      name: 'South Africa - Safari',
+      description: 'South Africa has many amazing sites, but seeing that African wildlife is at the top of the list.  Kruger National Park is an expansive area that is worth the long journey to see.  Get yourself settled and then get out to see the wildlife.  Hiring a guide is worth the cost as they have a pulse on where the animals are and it gives you the best chance to see the big five.  You can drive the park on your own and hope to encounter all the animals you want to see.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/safari.jpg'
+    },
+    {
+      number: 33,
+      name: 'South Africa - Cape Town',
+      description: 'Cape Town has many unique sites and places to see, so get settled into your hotel and set out to explore.  Sites that should not be missed are Robben Island, Table Mountain, the penguins, and the beaches.  If you have more time then it is worth renting a car and driving out to Stellenbosch to try some South African wine.  Feeling even more adventurous?  Drive to Gansbai and go cage diving with great white sharks.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/capetown.jpg'
+    },
+    {
+      number: 34,
+      name: 'South Africa - Cape Town',
+      description: 'Cape Town has many unique sites and places to see, so get settled into your hotel and set out to explore.  Sites that should not be missed are Robben Island, Table Mountain, the penguins, and the beaches.  If you have more time then it is worth renting a car and driving out to Stellenbosch to try some South African wine.  Feeling even more adventurous?  Drive to Gansbai and go cage diving with great white sharks.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/capetown.jpg'
+    },
+    {
+      number: 35,
+      name: 'South Africa - Cape Town',
+      description: 'Cape Town has many unique sites and places to see, so get settled into your hotel and set out to explore.  Sites that should not be missed are Robben Island, Table Mountain, the penguins, and the beaches.  If you have more time then it is worth renting a car and driving out to Stellenbosch to try some South African wine.  Feeling even more adventurous?  Drive to Gansbai and go cage diving with great white sharks.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/capetown.jpg'
+    },
+    {
+      number: 36,
+      name: 'South Africa - Cape Town',
+      description: 'Cape Town has many unique sites and places to see, so get settled into your hotel and set out to explore.  Sites that should not be missed are Robben Island, Table Mountain, the penguins, and the beaches.  If you have more time then it is worth renting a car and driving out to Stellenbosch to try some South African wine.  Feeling even more adventurous?  Drive to Gansbai and go cage diving with great white sharks.',
+      duration: 'You should plan at least a week long trip to make the journey worth it.',
+      image: 'dist/img/capetown.jpg'
+    },
+    {
+      number: 37,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
+    {
+      number: 38,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
+    {
+      number: 39,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
+    {
+      number: 40,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
+    {
+      number: 41,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
+    {
+      number: 42,
+      name: 'Barcelona',
+      description: 'Get settled in and then get ready to head out and take in all that Barcelona has to offer.  Walk to las Ramblas and see the hustle and bustle of this amazing spanish city.  See all of Gaudis work as you walk through parque Guell, see Casa Batllo, and of course the Sagrada Familia, which towers above everything in the middle of the city.  Make sure to have some tapas and wine before eating a late dinner and hitting the town.  If you have time it is worth renting a car and making the drive up the Costa Brava to see the amazing coast line and unique towns.' ,
+      duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
+      image: 'dist/img/barcelona.jpg'
+    },
 ]
 
 used = localStorage.userinfo.split(',').map(Number);
