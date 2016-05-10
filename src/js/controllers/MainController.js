@@ -10,8 +10,20 @@ app.controller('MainController', ['$scope', function($scope) {
     	name: 'San Francisco',
     	description: 'Check out the Golden Gate Bridge, Alcatraz, etc',
     	duration: 'You could spend as much time as you want in SF, but you should plan to spend at least 3 days to take in the main attractions.'
-    }
+    },
+     
 ]
+
+used = localStorage.userinfo;
+
+	$scope.shown = [];
+
+for(i=0; i < used.length; i++){
+	$scope.shown.push($scope.trips[used[i]]);
+
+};
+	
+
 
 
 
