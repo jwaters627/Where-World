@@ -36,7 +36,6 @@ var submission = function(e) {
             } else {
 
                 sendtrips.push(i);
-                alert("go to " + trips[i].name + " already!");
 
                 openwindow(sendtrips);
             };
