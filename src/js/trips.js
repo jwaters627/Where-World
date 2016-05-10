@@ -1,5 +1,5 @@
 var trips = [{
-        number: 1,
+        number: 0,
         name: "New York City",
         distance: "domestic",
         remoteness: "urban",
@@ -9,7 +9,7 @@ var trips = [{
         companions: "pair",
         lodging: "hotel"
     }, {
-        number: 2,
+        number: 1,
         name: "Zion",
         distance: "domestic",
         remoteness: "rural",
@@ -19,7 +19,7 @@ var trips = [{
         companions: "pair",
         lodging: "camping"
     },{
-        number: 3,
+        number: 2,
         name: "Zion - mountains",
         distance: "domestic",
         remoteness: "rural",
@@ -29,7 +29,7 @@ var trips = [{
         companions: "pair",
         lodging: "camping"
     }, {
-        number: 4,
+        number: 3,
         name: "Costa Rica - beach",
         distance: "international",
         remoteness: "rural",
@@ -40,7 +40,7 @@ var trips = [{
         lodging: "rental"
     }, 
     {
-        number: 5,
+        number: 4,
         name: "Costa Rica - rainforest",
         distance: "international",
         remoteness: "rural",
@@ -50,7 +50,7 @@ var trips = [{
         companions: "pair",
         lodging: "hotel"
     }, {
-        number: 6,
+        number: 5,
         name: "San Francisco - group",
         distance: "domestic",
         remoteness: "urban",
@@ -60,198 +60,247 @@ var trips = [{
         companions: "group",
         lodging: "hotel"
     }, {
-        name: "San Francisco - high cost",
+        number: 6,
+        name: "San Francisco - wine",
         distance: "domestic",
         remoteness: "urban",
-        landscape: "historicalsites",
-        price: "high-cost",
+        landscape: "restaurants",
         rigor: "leisure",
         tastes: "wine",
-        interests: "culture",
-        climate: "mild",
-        companions: "pair",
+        companions: "solo",
         lodging: "hotel"
     }, {
+        number: 7,
         name: "San Francisco - beer",
         distance: "domestic",
         remoteness: "urban",
-        landscape: "music",
-        price: "medium-cost",
+        landscape: "restaurants",
         rigor: "leisure",
         tastes: "beer",
-        interests: "culture",
-        climate: "mild",
         companions: "pair",
         lodging: "hotel"
     }, {
+        number: 8,
         name: "San Francisco - wine",
         distance: "domestic",
         remoteness: "urban",
         landscape: "music",
-        price: "high-cost",
         rigor: "leisure",
         tastes: "wine",
-        interests: "culture",
-        climate: "mild",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "Napa",
-        distance: "domestic",
-        remoteness: "urban",
-        landscape: "restaurants",
-        price: "high-cost",
-        rigor: "leisure",
-        tastes: "wine",
-        interests: "culture",
-        climate: "mild",
-        companions: "pair",
-        lodging: "hotel"
-    }, {
-        name: "West Coast",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "mountains",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
         companions: "group",
         lodging: "hotel"
     }, {
+        number: 9,
+        name: "Napa/Sonoma",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 10,
+        name: "Big Sur",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        rigor: "active",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "camping"
+    }, {
+        number: 11,
+        name: "Big Sur",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        rigor: "active",
+        tastes: "beer",
+        companions: "group",
+        lodging: "camping"
+    }, {
+        number: 12,
+        name: "Big Sur",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        rigor: "active",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "camping"
+    }, {
+        number: 13,
         name: "Panama",
         distance: "international",
         remoteness: "rural",
         landscape: "beach",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "beer",
-        interests: "nature",
-        climate: "hot",
         companions: "solo",
         lodging: "hostel"
     }, {
+        number: 14,
         name: "Panama",
         distance: "international",
         remoteness: "rural",
         landscape: "beach",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "beer",
-        interests: "nature",
-        climate: "hot",
         companions: "pair",
-        lodging: "hotel"
+        lodging: "rental"
     }, {
+        number: 15,
         name: "Panama",
         distance: "international",
         remoteness: "rural",
         landscape: "beach",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "beer",
-        interests: "culture",
-        climate: "mild",
         companions: "group",
         lodging: "hotel"
     }, {
+        number: 16,
         name: "Yosemite",
         distance: "domestic",
         remoteness: "rural",
         landscape: "mountains",
-        price: "low-cost",
         rigor: "active",
         tastes: "beer",
-        interests: "nature",
-        climate: "mild",
         companions: "pair",
         lodging: "camping"
     }, {
+        number: 17,
         name: "Yosemite",
         distance: "domestic",
         remoteness: "rural",
         landscape: "mountains",
-        price: "low-cost",
         rigor: "active",
         tastes: "foodie",
-        interests: "nature",
-        climate: "mild",
         companions: "pair",
         lodging: "camping"
     }, {
+        number: 18,
         name: "Yosemite",
         distance: "domestic",
         remoteness: "rural",
         landscape: "mountains",
-        price: "low-cost",
         rigor: "active",
         tastes: "beer",
-        interests: "nature",
-        climate: "mild",
         companions: "solo",
         lodging: "camping"
     }, {
+        number: 19,
         name: "Yosemite",
         distance: "domestic",
         remoteness: "rural",
         landscape: "mountains",
-        price: "low-cost",
         rigor: "active",
         tastes: "beer",
-        interests: "nature",
-        climate: "mild",
         companions: "group",
         lodging: "camping"
     }, {
+        number: 20,
+        name: "Las Vegas",
+        distance: "domestic",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "group",
+        lodging: "hotel"
+    }, {
+        number: 21,
         name: "Las Vegas",
         distance: "domestic",
         remoteness: "urban",
         landscape: "music",
-        price: "medium-cost",
         rigor: "leisure",
-        tastes: "foodie",
-        interests: "museums",
-        climate: "hot",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 22,
+        name: "Las Vegas",
+        distance: "domestic",
+        remoteness: "urban",
+        landscape: "music",
+        rigor: "leisure",
+        tastes: "beer",
         companions: "group",
         lodging: "hotel"
     }, {
+        number: 23,
         name: "Orlando",
         distance: "domestic",
         remoteness: "urban",
         landscape: "restaurants",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
         companions: "group",
         lodging: "hotel"
     }, {
+        number: 24,
         name: "Washington, DC",
         distance: "domestic",
         remoteness: "urban",
         landscape: "historicalsites",
-        price: "medium-cost",
         rigor: "leisure",
         tastes: "wine",
-        interests: "culture",
-        climate: "mild",
         companions: "group",
         lodging: "rental"
     }, {
+        number: 25,
+        name: "Washington, DC",
+        distance: "domestic",
+        remoteness: "urban",
+        landscape: "historicalsites",
+        rigor: "leisure",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "rental"
+    }, {
+        number: 26,
+        name: "Washington, DC",
+        distance: "domestic",
+        remoteness: "urban",
+        landscape: "historicalsites",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "rental"
+    }, {
+        number: 27,
         name: "Sedona",
         distance: "domestic",
         remoteness: "rural",
         landscape: "desert",
-        price: "medium-cost",
         rigor: "active",
         tastes: "beer",
-        interests: "nature",
-        climate: "hot",
         companions: "pair",
         lodging: "camping"
     }, {
+        number: 28,
+        name: "Sedona",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "desert",
+        rigor: "active",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 29,
+        name: "Sedona",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "desert",
+        rigor: "active",
+        tastes: "beer",
+        companions: "solo",
+        lodging: "camping"
+    }, {
+        number: 26,
         name: "Myrtle Beach",
         distance: "domestic",
         remoteness: "rural",
@@ -264,6 +313,7 @@ var trips = [{
         companions: "group",
         lodging: "rental"
     }, {
+        number: 27,
         name: "Bora Bora",
         distance: "international",
         remoteness: "rural",
@@ -278,6 +328,7 @@ var trips = [{
     },
 
     {
+        number: 28,
         name: "Rio de Janeiro",
         distance: "international",
         remoteness: "urban",
@@ -290,6 +341,7 @@ var trips = [{
         companions: "group",
         lodging: "hostel"
     }, {
+        number: 29,
         name: "Yellowstone",
         distance: "domestic",
         remoteness: "rural",
@@ -303,6 +355,7 @@ var trips = [{
         lodging: "camping"
     },
     {
+        number: 30,
         name: "Hawaii - beer",
         distance: "domestic",
         remoteness: "rural",
@@ -316,6 +369,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 31,
         name: "Hawaii - high food",
         distance: "domestic",
         remoteness: "rural",
@@ -329,6 +383,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 32,
         name: "Hawaii - high beer",
         distance: "domestic",
         remoteness: "rural",
@@ -342,6 +397,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 33,
         name: "Chicago - restaurants",
         distance: "domestic",
         remoteness: "urban",
@@ -355,6 +411,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 34,
         name: "Chicago - museums",
         distance: "domestic",
         remoteness: "urban",
@@ -368,6 +425,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 35,
         name: "Nashville",
         distance: "domestic",
         remoteness: "urban",
@@ -381,6 +439,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 36,
         name: "Nashville - food",
         distance: "domestic",
         remoteness: "urban",
@@ -394,6 +453,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 37,
         name: "Nashville - group",
         distance: "domestic",
         remoteness: "urban",
@@ -407,6 +467,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 38,
         name: "Jackson Hole - camping",
         distance: "domestic",
         remoteness: "rural",
@@ -420,6 +481,7 @@ var trips = [{
         lodging: "camping"
     },
     {
+        number: 39,
         name: "Jackson Hole - high cost",
         distance: "domestic",
         remoteness: "rural",
@@ -433,6 +495,7 @@ var trips = [{
         lodging: "hotel"
     },
     {
+        number: 40,
         name: "Seattle",
         distance: "domestic",
         remoteness: "urban",
