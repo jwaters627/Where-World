@@ -300,7 +300,139 @@ var trips = [{
         companions: "solo",
         lodging: "camping"
     }, {
-        number: 26,
+        number: 30,
+        name: "South Africa- Safari",
+        distance: "international",
+        remoteness: "rural",
+        landscape: "desert",
+        rigor: "active",
+        tastes: "beer",
+        companions: "group",
+        lodging: "hotel"
+    }, {
+        number: 31,
+        name: "South Africa - Safari",
+        distance: "international",
+        remoteness: "rural",
+        landscape: "desert",
+        rigor: "active",
+        tastes: "beer",
+        companions: "group",
+        lodging: "camping"
+    }, {
+        number: 32,
+        name: "South Africa - Safari",
+        distance: "international",
+        remoteness: "rural",
+        landscape: "desert",
+        rigor: "active",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    }, 
+    {
+        number: 33,
+        name: "South Africa - Cape Town",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "active",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 34,
+        name: "South Africa - Cape Town",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 35,
+        name: "South Africa - Cape Town",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "group",
+        lodging: "hotel"
+    }, {
+        number: 36,
+        name: "South Africa - Cape Town",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "historicalsites",
+        rigor: "leisure",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 37,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "museums",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 38,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "museums",
+        rigor: "leisure",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hostel"
+    }, {
+        number: 39,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 40,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "museums",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "hotel"
+    }, {
+        number: 41,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "group",
+        lodging: "hotel"
+    },  {
+        number: 42,
+        name: "Barcelona",
+        distance: "international",
+        remoteness: "urban",
+        landscape: "restaurants",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    },  
+    {
+        number: 42,
         name: "Myrtle Beach",
         distance: "domestic",
         remoteness: "rural",
