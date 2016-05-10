@@ -302,6 +302,97 @@ app.controller('MainController', ['$scope', function($scope) {
       duration: 'Barcelona has many smaller towns nearby, so you could spend a lot of time exploring, but make sure to have a minimum of three days to take in the main site within the city',
       image: 'dist/img/barcelona.jpg'
     },
+    {
+      number: 43,
+      name: 'Myrtle Beach',
+      description: 'Myrtle Beach is all at once a spring break destination, golfing destination, retirement community, and family vacation spot. Take in a foot-stomping show at the Carolina Opry, or cheer on your favorite knight at Medieval Times. Mingle with the fishermen of Springmaid Pier, then stop for ice cream along the boardwalk. Shop and dine at one of the area’s many outdoor entertainment complexes, or simply explore the many beaches of the Grand Strand – all with a personality of their own.' ,
+      duration: 'There is plenty to do in Myrtle Beach, so give yourself 3 to 4 days to explore all that it has to offer.',
+      image: 'dist/img/myrtle-beach.jpg'
+    },
+    {
+      number: 44,
+      name: 'Bora Bora',
+      description: 'Turquoise lagoons, soft white sands, and deep tangerine sunsets set the scene for romance on the island so nice they named it twice. Mingle with tropical fish as you flutter around Coral Gardens or Tupitipiti Point, or relax in a self-driving tour as you take in beautiful views of the once-volcanic Mount Otemanu. At the Lagoonarium you can watch shark feedings and swim with turtles. Cap it all off with a succulent meal at one of the island’s fine French restaurants, then sip a tropical cocktail under the stars.' ,
+      duration: 'You will want to spend at least a full week in Bora Bora, relaxing and enjoying the beauty of the beaches and lagoons. If you can, spend 2 weeks vacationing in this tropical paradise.',
+      image: 'dist/img/bora-bora.jpg'
+    },
+    {
+      number: 45,
+      name: 'Rio de Janeiro',
+      description: 'With its plentiful beaches, dramatic mountains, and backdrop of samba and bossa nova rhythms, it is easy to fall in love with Rio de Janeiro. Made famous in song, Ipanema Beach is still the place to stroll, sunbathe, and be seen. The largest Art Deco statue in the world, Christ the Redeemer, beckons visitors to Corcovado Mountain. Rio’s annual Carnaval celebrations are bacchanalian extravaganzas of feasting, music, dance, and costumed revelry.' ,
+      duration: 'There is so much excitement to experience in Rio, you will want to stay for at least a week to take it all in.',
+      image: 'dist/img/rio.jpg'
+    },
+    {
+      number: 46,
+      name: 'Yellowstone',
+      description: 'Established in 1872, Yellowstone National Park is a national treasure. Located primarily in Wyoming, the park also extends into Montana and Idaho. Yellowstone has active geothermal features with geysers and boiling mud pots throughout the park. The most famous is Old Faithful, a geyser that has erupted on the clock for decades. Travelers be warned, July is the busiest month of the year, with almost a million visitors alone. The park has a tour bus system, nine visitor centers, and 2,000 campsites.' ,
+      duration: 'If you want to hike and camp, block out at least 4 days to get the full Yellowstone experience. If you are just driving through, 2 days should be enough, but go back when you have more time!',
+      image: 'dist/img/yellowstone.jpg'
+    },
+    {
+      number: 47,
+      name: 'Hawaii',
+      description: 'Six unique islands each with their own personalities and captivating experiences. Whether you visit Kauai, Oahu, Molokai, Lanai, Maui, or the Big Island, you will be sure to have an unforgettable experience.' ,
+      duration: 'Take one to two weeks to fully experience all that Hawaiian Islands have to offer.',
+      image: 'dist/img/hawaii.jpg'
+    },
+    {
+      number: 48,
+      name: 'Hawaii',
+      description: 'Six unique islands each with their own personalities and captivating experiences. Whether you visit Kauai, Oahu, Molokai, Lanai, Maui, or the Big Island, you will be sure to have an unforgettable experience.' ,
+      duration: 'Take one to two weeks to fully experience all that Hawaiian Islands have to offer.',
+      image: 'dist/img/hawaii.jpeg'
+    },
+    {
+      number: 49,
+      name: 'Chicago',
+      description: 'The windy city is a cornucopia of modern art, fine dining, cutting edge comedy, and die-hard sports fans. Snap a photo of your reflection in the silver Cloud Gate sculpture at Millennium Park before heading to Grant Park to get hit with the refreshing spray of Buckingham Fountain. There are dozens of museums and theater companies in Chicago, so a cultural experience is never hard to find. You’re sure to laugh your head off at the Second City Theater, the professional launch pad of many famous comedians.' ,
+      duration: 'Chicago can be experienced over a weekend, but if you are prone to exploring, give yourself an extra day or two.',
+      image: 'dist/img/chicago.jpeg'
+    },
+    {
+      number: 50,
+      name: 'Chicago',
+      description: 'The windy city is a cornucopia of modern art, fine dining, cutting edge comedy, and die-hard sports fans. Snap a photo of your reflection in the silver Cloud Gate sculpture at Millennium Park before heading to Grant Park to get hit with the refreshing spray of Buckingham Fountain. There are dozens of museums and theater companies in Chicago, so a cultural experience is never hard to find. You’re sure to laugh your head off at the Second City Theater, the professional launch pad of many famous comedians.' ,
+      duration: 'Chicago can be experienced over a weekend, but if you are prone to exploring, give yourself an extra day or two.',
+      image: 'dist/img/chicago.jpeg'
+    },
+    {
+      number: 51,
+      name: 'Nashville',
+      description: 'Put on your boots! Nashville is the heart and soul of the country music industry, and people here are proud of it. Get in the downhome spirit by visiting the Country Music Hall of Fame and stomping your feet at the Grand Ole Opry. Tennessee gets some ancient influence in Centennial Park, where inside of the full-scale model of the Parthenon you’ll be awestruck by the gigantic statue of Athena.' ,
+      duration: 'Spend a long weekend taking in live music and Southern comfort food.',
+      image: 'dist/img/nashville.jpg'
+    },
+    {
+      number: 52,
+      name: 'Nashville',
+      description: 'Put on your boots! Nashville is the heart and soul of the country music industry, and people here are proud of it. Get in the downhome spirit by visiting the Country Music Hall of Fame and stomping your feet at the Grand Ole Opry. Tennessee gets some ancient influence in Centennial Park, where inside of the full-scale model of the Parthenon you’ll be awestruck by the gigantic statue of Athena.' ,
+      duration: 'Spend a long weekend taking in live music and Southern comfort food.',
+      image: 'dist/img/nashville.jpg'
+    },
+    {
+      number: 53,
+      name: 'Nashville',
+      description: 'Put on your boots! Nashville is the heart and soul of the country music industry, and people here are proud of it. Get in the downhome spirit by visiting the Country Music Hall of Fame and stomping your feet at the Grand Ole Opry. Tennessee gets some ancient influence in Centennial Park, where inside of the full-scale model of the Parthenon you’ll be awestruck by the gigantic statue of Athena.' ,
+      duration: 'Spend a long weekend taking in live music and Southern comfort food.',
+      image: 'dist/img/nashville.jpg'
+    },
+    {
+      number: 54,
+      name: 'Jackson Hole',
+      description: 'During the winter, Jackson Hole is a wonderland of snow skiing, snowmobiling and ice-skating. Summer in Jackson Hole is all about hiking, whitewater rafting, golfing and horseback riding. When you come down off the slopes, you can choose from recreation options like dog sled tours, sleigh rides and wildlife and nature tours. During the summer, you better get your energy level up because kayaking, hang gliding, hot air ballooning, mountain biking and stagecoach rides are just a few of the many options available. For climbers, hikers and nature lovers, the nearby Grand Teton National Park is an absolute nirvana. The towering mountains of the Teton Range stretch 40 miles, and include eight mountains over 12,000 feet.' ,
+      duration: 'Give yourself at least 4 days to participate in all the fun outdoor activities Jackson Hole has to offer.',
+      image: 'dist/img/jackson-hole.jpeg'
+    },
+    {
+      number: 55,
+      name: 'Seattle',
+      description: 'In Seattle you simply can’t skip the Central Public Library – a modern architectural marvel of glass grids, unusual shapes, and a “book spiral” that climbs four stories. Stroll over to Pike Place Market to visit the original Starbucks and play catch with a fishmonger. In the heart of the city lies Chihuly Garden and Glass, which will dazzle you with its colorful and delicate works. Glide to the top of the Space Needle for panoramic views of the surrounding mountain ranges and Puget Sound.' ,
+      duration: 'Seattle is great for a long weekend or week-long trip if you want to explore beyond the city limits.',
+      image: 'dist/img/seattle.jpg'
+    },
 ]
 
 used = localStorage.userinfo.split(',').map(Number);
