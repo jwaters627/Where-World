@@ -1,4 +1,5 @@
 var trips = [{
+        number: 1,
         name: "New York City",
         distance: "domestic",
         remoteness: "urban",
@@ -11,11 +12,25 @@ var trips = [{
         companions: "pair",
         lodging: "hotel"
     }, {
+        number: 2,
         name: "Zion",
         distance: "domestic",
         remoteness: "rural",
         landscape: "desert",
-        price: "medium-cost",
+        price: "low-cost",
+        rigor: "active",
+        tastes: "foodie",
+        interests: "nature",
+        climate: "hot",
+        companions: "pair",
+        lodging: "camping"
+    },{
+        number: 3,
+        name: "Zion - mountains",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "mountains",
+        price: "low-cost",
         rigor: "active",
         tastes: "foodie",
         interests: "nature",
@@ -23,6 +38,7 @@ var trips = [{
         companions: "pair",
         lodging: "camping"
     }, {
+        number: 4,
         name: "Costa Rica - beach",
         distance: "international",
         remoteness: "rural",
@@ -36,18 +52,7 @@ var trips = [{
         lodging: "rental"
     }, 
     {
-        name: "Zion",
-        distance: "domestic",
-        remoteness: "rural",
-        landscape: "desert",
-        price: "medium-cost",
-        rigor: "active",
-        tastes: "foodie",
-        interests: "nature",
-        climate: "hot",
-        companions: "pair",
-        lodging: "camping"
-    },{
+        number: 5,
         name: "Costa Rica - rainforest",
         distance: "international",
         remoteness: "rural",
