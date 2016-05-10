@@ -216,10 +216,23 @@ body {
     font-family: "Kadwa", serif; }
 
 .main h1 {
+  margin: 20px auto;
   background-color: #3e3e3e;
+  text-align: center;
   color: white;
   width: 20%; }
 .main h2 {
+  text-align: center;
   color: black; }
+
+.places {
+  padding-bottom: 10px;
+  border-bottom: 2px solid black; }
+
+.places img {
+  margin: 0 auto;
+  width: 40%;
+  height: 300px;
+  border: none; }
 
 /*# sourceMappingURL=app.css.map */
