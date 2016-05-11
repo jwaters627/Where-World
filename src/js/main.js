@@ -29,14 +29,14 @@ var submission = function(e) {
                 continue;
             } else if (trips[i].tastes !== e.tastes) {
                 continue;
-            } else if (trips[i].interests !== e.interests) {
-                continue;
             } else if (trips[i].companions !== e.companions) {
+                continue;
+            } else if (trips[i].lodging !== e.lodging) {
                 continue;
             } else {
 
                 sendtrips.push(i);
-
+                alert(sendtrips);
                 openwindow(sendtrips);
             };
         };
