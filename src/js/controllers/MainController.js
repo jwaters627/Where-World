@@ -389,10 +389,116 @@ app.controller('MainController', ['$scope', function($scope) {
     {
       number: 55,
       name: 'Seattle',
-      description: 'In Seattle you simply can’t skip the Central Public Library – a modern architectural marvel of glass grids, unusual shapes, and a “book spiral” that climbs four stories. Stroll over to Pike Place Market to visit the original Starbucks and play catch with a fishmonger. In the heart of the city lies Chihuly Garden and Glass, which will dazzle you with its colorful and delicate works. Glide to the top of the Space Needle for panoramic views of the surrounding mountain ranges and Puget Sound.' ,
+      description: 'In Seattle you simply cannot skip the Central Public Library – a modern architectural marvel of glass grids, unusual shapes, and a “book spiral” that climbs four stories. Stroll over to Pike Place Market to visit the original Starbucks and play catch with a fishmonger. In the heart of the city lies Chihuly Garden and Glass, which will dazzle you with its colorful and delicate works. Glide to the top of the Space Needle for panoramic views of the surrounding mountain ranges and Puget Sound.' ,
       duration: 'Seattle is great for a long weekend or week-long trip if you want to explore beyond the city limits.',
       image: 'dist/img/seattle.jpg'
     },
+    {
+      number: 56,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 57,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 58,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 59,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 60,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 61,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 62,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 63,
+      name: 'Crater Lake',
+      description: 'Crater Lake is an absolutely breathtaking lake in Oregon. The water is an incredible shade of blue and when it contrasts with the white snow it forms a beautiful scene.  Walk or drive the rim trail to get a feel for the size and beauty as you look down to the water and island in the middle. If you are feeling up to it hike down to the waters edge and jump in.' ,
+      duration: 'You can take in the beauty of Crater Lake in a weekend, but if you have more time you should venture to the Oregon Coast.',
+      image: 'dist/img/craterlake.jpg'
+    },
+    {
+      number: 64,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 65,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 66,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 67,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 68,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 69,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+    {
+      number: 70,
+      name: 'Lake Tahoe',
+      description: 'Lake Tahoe has everything you could want. Go during the winter and go skiing or go in the summer time and enjoy the sunshine and refreshing water.  There are restaurants, resorts and golf courses all around. The lake is massive, so renting a car is a good idea, so you can explore the different areas of the lake.' ,
+      duration: 'You should give yourself at least a weekend to enjoy Tahoe, but you will not get bored if you stay for a whole week.',
+      image: 'dist/img/tahoe.jpg'
+    },
+
 ]
 
 used = localStorage.userinfo.split(',').map(Number);
