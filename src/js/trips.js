@@ -637,7 +637,7 @@ var trips = [{
         landscape: "lake",
         rigor: "leisure",
         tastes: "beer",
-        companions: "pair",
+        companions: "group",
         lodging: "rental"
     },
      {
