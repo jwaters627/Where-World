@@ -574,6 +574,171 @@ var trips = [{
         companions: "pair",
         lodging: "hotel"
     },
+    {
+        number: 56,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "hotel"
+    },
+     {
+        number: 57,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "hotel"
+    },
+     {
+        number: 58,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "hotel"
+    },
+     {
+        number: 59,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "rental"
+    },
+     {
+        number: 60,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "pair",
+        lodging: "rental"
+    },
+     {
+        number: 61,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "beer",
+        companions: "pair",
+        lodging: "rental"
+    },
+     {
+        number: 62,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "group",
+        lodging: "hotel"
+    },
+     {
+        number: 63,
+        name: "Crater Lake",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "group",
+        lodging: "camping"
+    },
+    {
+        number: 64,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "foodie",
+        companions: "group",
+        lodging: "camping"
+    },
+    {
+        number: 65,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "leisure",
+        tastes: "wine",
+        companions: "group",
+        lodging: "camping"
+    },
+    {
+        number: 66,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "active",
+        tastes: "foodie",
+        companions: "solo",
+        lodging: "rental"
+    },
+    {
+        number: 67,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "active",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "camping"
+    },
+    {
+        number: 68,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "active",
+        tastes: "beer",
+        companions: "group",
+        lodging: "rental"
+    },
+    {
+        number: 69,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "active",
+        tastes: "foodie",
+        companions: "pair",
+        lodging: "hotel"
+    },
+    {
+        number: 70,
+        name: "Lake Tahoe",
+        distance: "domestic",
+        remoteness: "rural",
+        landscape: "lake",
+        rigor: "active",
+        tastes: "wine",
+        companions: "group",
+        lodging: "rental"
+    },
 
 
 
