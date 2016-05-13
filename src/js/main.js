@@ -36,7 +36,6 @@ var submission = function(e) {
             } else {
 
                 sendtrips.push(i);
-                alert(sendtrips);
                 openwindow(sendtrips);
             };
         };
@@ -52,6 +51,15 @@ var openwindow = function(e) {
     localStorage.userinfo = e;
     window.open("suggest.html", "_self");
 }
+
+// OPENING NEW WINDOW AND PRESENTING A RANDOM TRIP WHEN RANDOM IS CLICKED //
+
+document.addEventListener("click", function(e) {
+    if(e.target.id == "random"){
+        localStorage.userinfo = [Math.floor((Math.random() * 107))]
+        window.open("suggest.html", "_self");
+    }
+});
 
 
 // SETTING NEW OBJECT UP //
